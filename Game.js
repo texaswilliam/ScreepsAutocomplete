@@ -46,21 +46,21 @@ Game =
     /**
      * A hash containing all your construction sites with their id as hash keys.
      *
-     * @type {Array<string, ConstructionSite>}
+     * @type {Object.<string, ConstructionSite>}
      */
     constructionSites: {},
 
     /**
      * A hash containing all your creeps with creep names as hash keys.
      *
-     * @type {Array<string, Creep>}
+     * @type {Object.<string, Creep>}
      */
     creeps: {},
 
     /**
      * A hash containing all your flags with flag names as hash keys.
      *
-     * @type {Array<string, Flag>}
+     * @type {Object.<string, Flag>}
      */
     flags: {},
 
@@ -108,21 +108,21 @@ Game =
     /**
      * A hash containing all the rooms available to you with room names as hash keys.
      *
-     * @type {Array<string, Room>}
+     * @type {Object.<string, Room>}
      */
     rooms: {},
 
     /**
      * A hash containing all your spawns with spawn names as hash keys.
      *
-     * @type {Array<string, Spawn>}
+     * @type {Object.<string, Spawn>}
      */
     spawns: {},
 
     /**
      * A hash containing all your structures with structure id as hash keys.
      *
-     * @type {Array<string, Structure>}
+     * @type {Object.<string, Structure>}
      */
     structures: {},
 
